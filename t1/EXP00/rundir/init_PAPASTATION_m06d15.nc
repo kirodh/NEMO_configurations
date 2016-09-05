@@ -1,0 +1,1 @@
+/home/kboodhraj/NEMOGCM/CONFIG/t1/EXP00/input/init_PAPASTATION_m06d15.nc

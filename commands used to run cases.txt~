@@ -1,0 +1,2 @@
+this is the compiling command
+./makenemo -m 1dpapa -n name_of_config -j8 >&name_of_log_file

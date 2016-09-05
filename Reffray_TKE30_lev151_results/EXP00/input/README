@@ -1,0 +1,66 @@
+
+Description of the input files:
+
+ - init_PAPASTATION_m06d15.nc
+File to initialize the simulation
+This file contains temperature and salinity to start the simulation (June,15 2010).
+It is deduced from Observation data at PAPA station and completed with Levitus2009 climatology
+
+ - chlorophyll_PAPASTATION.nc
+Climatologic file of the surface chlorophyll concentration (usefull in traqsr).
+This file come from ORCA025 file at the PAPA point. deduced from Seawifs climatology
+
+ - forcing_PAPASTATION_1h_y2010.nc
+Forcing fluxes at the PAPA station for the years 2010.
+
+ - forcing_PAPASTATION_1h_y2011.nc
+Forcing fluxes at the PAPA station for the years 2011.
+
+
+
+
+
+Example of a script (run.ksh) to launch the reference simulation (to be launch in EXP00 directory):
+#!/bin/ksh
+
+## ======================================================================
+## Path ... should be completed
+## ======================================================================
+MAINPATH=??????????             # path of NEMO trunk
+
+DIR_ARCHI_INIT=????????????     # PATH for the initial condition file
+DIR_ARCHI_FORC=????????????     # PATH for the forcing input files
+
+
+## ======================================================================
+## =======  Nothing to be changed bellow this line  =====================
+## ======================================================================
+
+mkdir rundir
+cd rundir
+## ======================================================================
+## file needed for the run
+## ======================================================================
+cp ${MAINPATH}/NEMOGCM/CONFIG/SHARED/namelist_ref . 
+cp ../*.xml            .
+cp ../namelist_cfg     .
+cp ../opa              .
+
+## ======================================================================
+## Climatology of temperature and chlorophyll
+## ======================================================================
+ln -s ${DIR_ARCHI_INIT}/init_PAPASTATION_m06d15.nc  ./init_PAPASTATION_m06d15.nc
+ln -s ${DIR_ARCHI_INIT}/chlorophyll_PAPASTATION.nc  ./chlorophyll.nc
+
+## ======================================================================
+## Atmospherical forcings
+## ======================================================================
+ln -s ${DIR_ARCHI_FORC}/forcin* .
+
+./opa
+
+
+
+
+
+

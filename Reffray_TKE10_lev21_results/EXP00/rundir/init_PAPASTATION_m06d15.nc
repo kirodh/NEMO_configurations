@@ -1,0 +1,1 @@
+/home/kboodhraj/NEMOGCM/CONFIG/Reffray_TKE10_lev21_results/EXP00/input/init_PAPASTATION_m06d15.nc

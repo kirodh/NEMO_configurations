@@ -1,0 +1,20 @@
+The cases are simulated as follows:
+Each case will be labeled as follows: 
+	For the compiled folder: NAME_turbulence-closure_lv-levelnumber
+	For the after running folder: NAME_turbulence-closure_lv-levelnumber_results
+Dont forget to put in the name of the folder in the cfg.txt file and change the names in the run.sh, cpp.keys file
+Also make sure you are using the correct key for the turb scheme and the correct initial condition files for the levels
+
+
+Cases done so far:
+All turbulence closures:
+	Reffray:
+		75 levels
+		
+
+
+	Southern Ocean:
+		
+
+
+

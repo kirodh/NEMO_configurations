@@ -1,0 +1,1 @@
+/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev101_results/BLD/fcm_env.sh

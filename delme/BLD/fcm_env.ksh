@@ -1,0 +1,1 @@
+/home/kboodhraj/NEMOGCM/CONFIG/delme/BLD/fcm_env.sh

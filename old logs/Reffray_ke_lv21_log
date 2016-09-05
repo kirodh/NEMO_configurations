@@ -1,0 +1,1106 @@
+Creating Reffray_ke_lev21_results/WORK = OPA_SRC for Reffray_ke_lev21_results
+MY_SRC directory is : Reffray_ke_lev21_results/MY_SRC
+Build command started on Tue Aug 16 15:10:04 2016.
+->Parse configuration: start
+Config file (bld): /home/kboodhraj/NEMOGCM/TOOLS/COMPILE/bldxag.cfg
+Config file (bld): /home/kboodhraj/NEMOGCM/TOOLS/COMPILE/arch_nemo.fcm
+Config file (bld): /home/kboodhraj/NEMOGCM/TOOLS/COMPILE/cpp.fcm
+->Parse configuration: 0 second
+->Setup destination: start
+Destination: kboodhraj@kboodhraj-ws1:/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD
+Make directory: /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/cfg
+->Setup destination: 0 second
+->Setup build: start
+->Setup build: 0 second
+->Pre-process: start
+No. of files scanned for PP dependency: 290
+Use of uninitialized value in uc at /home/kboodhraj/NEMOGCM/EXTERNAL/fcm/bin/../lib/Fcm/BuildSrc.pm line 396.
+No. of pre-processed files: 255
+->Pre-process: 3 seconds
+->Scan dependency: start
+No. of files scanned for dependency: 304
+/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/Makefile: updated
+->Scan dependency: 6 seconds
+->Generate Fortran interface: start
+->Generate Fortran interface: 0 second
+->Make: start
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FC.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/LD.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/LDFLAGS.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/LD__nemo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/LDFLAGS__nemo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/LD__nemo__nemo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/LDFLAGS__nemo__nemo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdyice_lim.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdylib.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domngb.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__flo4rk.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__floblk.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__flodom.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__florst.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__flowri.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__lib_cray.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__solmat.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__solpcg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__solsor.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__nemo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__nemogcm.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__asmbkg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__asmpar.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dom_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__par_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__par_kind.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__eosbn2.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__in_out_manager.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__lib_print.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__nc4interface.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__lbclnk.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__lbcnfd.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__lib_mpp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__lib_fortran.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__phycst.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__prtctl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__wrk_nemo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__stopar.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__iom.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__c1d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__crs.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__flo_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__ioipsl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__calendar.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__errioipsl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__stringop.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__flincom.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__fliocom.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__defprec.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__getincom.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__histcom.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__mathelp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__ioipsl__restcom.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__iom_def.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__iom_ioipsl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__iom_nf90.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__iom_rstdimg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__storng.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__stopts.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__timing.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__ldfslp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__ldftra_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbc_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sol_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__tradmp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dtatsd.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__fldread.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__geo2ocean.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trd_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdmxl_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdvor_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdtra.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdglo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__ldfdyn_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdf_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdfbfr.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdfddm.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdmxl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diadimg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dianam.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__restart.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__divcur.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__cla.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynspg_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcisf.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcrnf.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__closea.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdmxl_rst.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdfmxl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trc_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdpen.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdtrc.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__asminc.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domvvl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zpshde.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdydta.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdyini.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdytides.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__cpl_oasis3.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__crsini.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__crsdom.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__crslbclnk.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__crsdomwri.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diadct.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diaobs.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__mpp_map.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_fbm.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_utils.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_grid.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_const.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_mpp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_oper.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_inter_h2d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_inter_sup.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_inter_z1d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_profiles_def.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_surf_def.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcdcy.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_prep.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domstp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_profiles.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_read_altbias.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_read_prof.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__julian.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_conv.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_prof_io.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_sort.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_types.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_read_seaice.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_seaice_io.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_read_sla.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_sla_io.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_sla_types.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_read_sst.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_sst_io.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_read_vel.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_vel_io.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_readmdt.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_seaice.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_sla.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_sst.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_write.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__obs_rot_vel.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diaptr.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diawri.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diahth.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynadv.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynadv_cen2.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trddyn.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdken.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdvor.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynadv_ubs.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynkeg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynzad.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icb_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbdia.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbutl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbc_ice.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcssr.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traldf_iso_grif.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domain.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domhgr.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dommsk.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domwri.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domzgr.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dyncor_c1d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domcfg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__domc1d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dyndmp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dtauvd.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbini.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbrst.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbtrj.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbstp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbclv.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbdyn.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icblbc.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__icbthm.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__istate.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__daymod.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynspg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynhpg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynspg_exp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynspg_flt.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynspg_ts.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcapr.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbctide.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__tideini.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__tide_mod.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__solver.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__updtide.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__ldfdyn.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__ldftra.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__mppini.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__step.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__step_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdy_oce.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdy_par.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdydyn3d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdytra.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__crsfld.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diaar5.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diafwb.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diaharm.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__diahsb.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trabbc.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traqsr.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynbfr.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynldf.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynldf_bilap.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynldf_bilapg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynldf_iso.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynldf_lap.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynnept.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynnxt.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdydyn.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdyvol.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynvor.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynzdf.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynzdf_exp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynzdf_imp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdfgls.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trazdf_exp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdfkpp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdftke.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__floats.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__ldfdyn_smag.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__ldfeiv.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__ldftra_smag.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbccpl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__albedo.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcmod.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcana.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcblk_clio.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcblk_core.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__cyclone.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcwave.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcblk_mfs.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcflx.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcfwb.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcice_cice.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcice_if.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcice_lim.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcice_lim_2.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sbcssm.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__sshwzv.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__bdydyn2d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__stpctl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv_cen2.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv_eiv.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv_mle.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv_muscl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv_muscl2.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv_qck.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv_tvd.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traadv_ubs.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trabbl.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traldf.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traldf_bilap.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traldf_bilapg.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traldf_iso.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__traldf_lap.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__tranpc.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__tranxt.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trasbc.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trazdf.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trazdf_imp.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdfevd.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdfric.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdftmx.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__step_c1d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__dynnxt_c1d.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__trdini.flags
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/flags/FFLAGS__nemo__zdfini.flags
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdyice_lim.f90 bdyice_lim.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdylib.f90 bdylib.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/flo4rk.f90 flo4rk.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/floblk.f90 floblk.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/flodom.f90 flodom.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/florst.f90 florst.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/flowri.f90 flowri.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/WORK/lib_cray.f90 lib_cray.o
+gfortran -o bdyice_lim.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdyice_lim.f90
+gfortran -o bdylib.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdylib.f90
+gfortran -o flo4rk.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/flo4rk.f90
+gfortran -o floblk.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/floblk.f90
+gfortran -o florst.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/florst.f90
+gfortran -o lib_cray.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/WORK/lib_cray.f90
+gfortran -o flodom.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/flodom.f90
+gfortran -o flowri.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/flowri.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/asmpar.f90 asmpar.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/par_kind.f90 par_kind.o
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/ioipsl/nc4interface.f90 nc4interface.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/flo_oce.f90 flo_oce.o
+gfortran -o asmpar.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/asmpar.f90
+gfortran -o nc4interface.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/ioipsl/nc4interface.f90
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/errioipsl.f90 errioipsl.o
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/stringop.f90 stringop.o
+gfortran -o flo_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/flo_oce.f90
+gfortran -o par_kind.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/par_kind.f90
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/defprec.f90 defprec.o
+gfortran -o errioipsl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/errioipsl.f90
+gfortran -o stringop.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/stringop.f90
+gfortran -o defprec.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/defprec.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfslp.f90 ldfslp.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfddm.f90 zdfddm.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diadimg.f90 diadimg.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdtrc.f90 trdtrc.o
+gfortran -o zdfddm.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfddm.f90
+gfortran -o diadimg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diadimg.f90
+gfortran -o ldfslp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfslp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdydta.f90 bdydta.o
+gfortran -o trdtrc.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdtrc.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdyini.f90 bdyini.o
+gfortran -o bdydta.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdydta.f90
+gfortran -o bdyini.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdyini.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdytides.f90 bdytides.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diadct.f90 diadct.o
+gfortran -o bdytides.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdytides.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_const.f90 obs_const.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_inter_z1d.f90 obs_inter_z1d.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_conv.f90 obs_conv.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sort.f90 obs_sort.o
+gfortran -o diadct.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diadct.f90
+gfortran -o obs_const.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_const.f90
+gfortran -o obs_inter_z1d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_inter_z1d.f90
+gfortran -o obs_conv.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_conv.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_types.f90 obs_types.o
+gfortran -o obs_sort.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sort.f90
+gfortran -o obs_types.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_types.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sla_types.f90 obs_sla_types.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diahth.f90 diahth.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_iso_grif.f90 traldf_iso_grif.o
+gfortran -o obs_sla_types.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sla_types.f90
+gfortran -o diahth.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diahth.f90
+gfortran -o traldf_iso_grif.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_iso_grif.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg_exp.f90 dynspg_exp.o
+gfortran -o dynspg_exp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg_exp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg_flt.f90 dynspg_flt.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg_ts.f90 dynspg_ts.o
+gfortran -o dynspg_flt.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg_flt.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/solver.f90 solver.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/updtide.f90 updtide.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdy_oce.f90 bdy_oce.o
+gfortran -o dynspg_ts.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg_ts.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdy_par.f90 bdy_par.o
+gfortran -o updtide.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/updtide.f90
+gfortran -o solver.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/solver.f90
+gfortran -o bdy_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdy_oce.f90
+gfortran -o bdy_par.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdy_par.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdydyn3d.f90 bdydyn3d.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdytra.f90 bdytra.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diaar5.f90 diaar5.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diaharm.f90 diaharm.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf_bilapg.f90 dynldf_bilapg.o
+gfortran -o bdydyn3d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdydyn3d.f90
+gfortran -o bdytra.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdytra.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf_iso.f90 dynldf_iso.o
+gfortran -o diaharm.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diaharm.f90
+gfortran -o diaar5.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diaar5.f90
+gfortran -o dynldf_bilapg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf_bilapg.f90
+gfortran -o dynldf_iso.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf_iso.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdydyn.f90 bdydyn.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdyvol.f90 bdyvol.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfkpp.f90 zdfkpp.o
+gfortran -o zdfkpp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfkpp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdftke.f90 zdftke.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/floats.f90 floats.o
+gfortran -o bdydyn.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdydyn.f90
+gfortran -o bdyvol.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdyvol.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfdyn_smag.f90 ldfdyn_smag.o
+gfortran -o zdftke.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdftke.f90
+gfortran -o floats.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/floats.f90
+gfortran -o ldfdyn_smag.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfdyn_smag.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfeiv.f90 ldfeiv.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldftra_smag.f90 ldftra_smag.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/cyclone.f90 cyclone.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcice_cice.f90 sbcice_cice.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcice_lim.f90 sbcice_lim.o
+gfortran -o ldfeiv.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfeiv.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcice_lim_2.f90 sbcice_lim_2.o
+gfortran -o cyclone.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/cyclone.f90
+gfortran -o ldftra_smag.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldftra_smag.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdydyn2d.f90 bdydyn2d.o
+gfortran -o sbcice_cice.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcice_cice.f90
+gfortran -o sbcice_lim.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcice_lim.f90
+gfortran -o sbcice_lim_2.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcice_lim_2.f90
+gfortran -o bdydyn2d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/bdydyn2d.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_eiv.f90 traadv_eiv.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trabbl.f90 trabbl.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_bilapg.f90 traldf_bilapg.o
+gfortran -o traadv_eiv.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_eiv.f90
+gfortran -o trabbl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trabbl.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_iso.f90 traldf_iso.o
+gfortran -o traldf_bilapg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_bilapg.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfric.f90 zdfric.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdftmx.f90 zdftmx.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/asmpar.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/par_kind.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/nc4interface.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/flo_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/errioipsl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/stringop.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/defprec.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ldfslp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdfddm.done
+gfortran -o traldf_iso.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_iso.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diadimg.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdtrc.done
+gfortran -o zdftmx.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdftmx.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdydta.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdyini.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdytides.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diadct.done
+gfortran -o zdfric.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfric.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_const.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_inter_z1d.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_conv.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_sort.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_sla_types.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diahth.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traldf_iso_grif.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynspg_exp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynspg_flt.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynspg_ts.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/solver.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/updtide.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdy_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdy_par.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdydyn3d.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdytra.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diaar5.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diaharm.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynldf_bilapg.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynldf_iso.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdydyn.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdyvol.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdfkpp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdftke.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/floats.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ldfdyn_smag.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ldfeiv.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ldftra_smag.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/cyclone.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcice_cice.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcice_lim.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcice_lim_2.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/bdydyn2d.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv_eiv.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trabbl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traldf_bilapg.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/par_oce.f90 par_oce.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/WORK/lib_print.f90 lib_print.o
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/calendar.f90 calendar.o
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/getincom.f90 getincom.o
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/mathelp.f90 mathelp.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom_def.f90 iom_def.o
+gfortran -o par_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/par_oce.f90
+gfortran -o lib_print.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/WORK/lib_print.f90
+gfortran -o getincom.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/getincom.f90
+gfortran -o calendar.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/calendar.f90
+gfortran -o mathelp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/mathelp.f90
+gfortran -o iom_def.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom_def.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdfric.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdftmx.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traldf_iso.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dom_oce.f90 dom_oce.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/wrk_nemo.f90 wrk_nemo.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdvor_oce.f90 trdvor_oce.o
+gfortran -o dom_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dom_oce.f90
+gfortran -o wrk_nemo.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/wrk_nemo.f90
+gfortran -o trdvor_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdvor_oce.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/par_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/iom_def.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdvor_oce.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/in_out_manager.f90 in_out_manager.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/lib_print.done
+gfortran -o in_out_manager.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/in_out_manager.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/lib_mpp.f90 lib_mpp.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/phycst.f90 phycst.o
+gfortran -o lib_mpp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/lib_mpp.f90
+gfortran -o phycst.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/phycst.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbc_ice.f90 sbc_ice.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/in_out_manager.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/calendar.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_types.done
+gfortran -o sbc_ice.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbc_ice.f90
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/flincom.f90 flincom.o
+gfortran -o flincom.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/flincom.f90
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/fliocom.f90 fliocom.o
+gfortran -o fliocom.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/fliocom.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbc_ice.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/phycst.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/oce.f90 oce.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/c1d.f90 c1d.o
+gfortran -o oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/oce.f90
+gfortran -o c1d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/c1d.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/storng.f90 storng.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldftra_oce.f90 ldftra_oce.o
+gfortran -o storng.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/storng.f90
+gfortran -o ldftra_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldftra_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sol_oce.f90 sol_oce.o
+gfortran -o sol_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sol_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdmxl_oce.f90 trdmxl_oce.o
+gfortran -o trdmxl_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdmxl_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfdyn_oce.f90 ldfdyn_oce.o
+gfortran -o ldfdyn_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfdyn_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdf_oce.f90 zdf_oce.o
+gfortran -o zdf_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdf_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg_oce.f90 dynspg_oce.o
+gfortran -o dynspg_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/julian.f90 julian.o
+gfortran -o julian.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/julian.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icb_oce.f90 icb_oce.o
+gfortran -o icb_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icb_oce.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/lib_mpp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/wrk_nemo.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/c1d.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/storng.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ldftra_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sol_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdmxl_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ldfdyn_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdf_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynspg_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/julian.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trd_oce.f90 trd_oce.o
+gfortran -o trd_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trd_oce.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trd_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icb_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/flincom.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/lbcnfd.f90 lbcnfd.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/lib_fortran.f90 lib_fortran.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/prtctl.f90 prtctl.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crs.f90 crs.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/timing.f90 timing.o
+gfortran -o lbcnfd.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/lbcnfd.f90
+gfortran -o timing.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/timing.f90
+gfortran -o crs.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crs.f90
+gfortran -o lib_fortran.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/lib_fortran.f90
+gfortran -o prtctl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/prtctl.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trc_oce.f90 trc_oce.o
+gfortran -o trc_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trc_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/mpp_map.f90 mpp_map.o
+gfortran -o mpp_map.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/mpp_map.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_utils.f90 obs_utils.o
+gfortran -o obs_utils.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_utils.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_mpp.f90 obs_mpp.o
+gfortran -o obs_mpp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_mpp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_inter_h2d.f90 obs_inter_h2d.o
+gfortran -o obs_inter_h2d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_inter_h2d.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domstp.f90 domstp.o
+gfortran -o domstp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domstp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf_lap.f90 dynldf_lap.o
+gfortran -o dynldf_lap.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf_lap.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domngb.f90 domngb.o
+gfortran -o domngb.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domngb.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dom_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/getincom.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/timing.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trc_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/mpp_map.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_utils.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_mpp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/domstp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynldf_lap.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_fbm.f90 obs_fbm.o
+gfortran -o obs_fbm.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_fbm.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_grid.f90 obs_grid.o
+gfortran -o obs_grid.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_grid.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_surf_def.f90 obs_surf_def.o
+gfortran -o obs_surf_def.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_surf_def.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dyncor_c1d.f90 dyncor_c1d.o
+gfortran -o dyncor_c1d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dyncor_c1d.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/albedo.f90 albedo.o
+gfortran -o albedo.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/albedo.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/lib_fortran.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/prtctl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_inter_h2d.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dyncor_c1d.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/lbclnk.f90 lbclnk.o
+gfortran -o lbclnk.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/lbclnk.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/lbcnfd.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_surf_def.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_seaice.f90 obs_seaice.o
+gfortran -o obs_seaice.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_seaice.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sla.f90 obs_sla.o
+gfortran -o obs_sla.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sla.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sst.f90 obs_sst.o
+gfortran -o obs_sst.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sst.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_seaice.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_sla.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_sst.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom_nf90.f90 iom_nf90.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom_rstdimg.f90 iom_rstdimg.o
+gfortran -o iom_rstdimg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom_rstdimg.f90
+gfortran -o iom_nf90.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom_nf90.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbc_oce.f90 sbc_oce.o
+gfortran -o sbc_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbc_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/geo2ocean.f90 geo2ocean.o
+gfortran -o geo2ocean.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/geo2ocean.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/cpl_oasis3.f90 cpl_oasis3.o
+gfortran -o cpl_oasis3.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/cpl_oasis3.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crslbclnk.f90 crslbclnk.o
+gfortran -o crslbclnk.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crslbclnk.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcdcy.f90 sbcdcy.o
+gfortran -o sbcdcy.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcdcy.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbutl.f90 icbutl.o
+gfortran -o icbutl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbutl.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dommsk.f90 dommsk.o
+gfortran -o dommsk.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dommsk.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diafwb.f90 diafwb.o
+gfortran -o diafwb.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diafwb.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf_bilap.f90 dynldf_bilap.o
+gfortran -o dynldf_bilap.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf_bilap.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynzdf_exp.f90 dynzdf_exp.o
+gfortran -o dynzdf_exp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynzdf_exp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcana.f90 sbcana.o
+gfortran -o sbcana.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcana.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/stpctl.f90 stpctl.o
+gfortran -o stpctl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/stpctl.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynnxt_c1d.f90 dynnxt_c1d.o
+gfortran -o dynnxt_c1d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynnxt_c1d.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/solmat.f90 solmat.o
+gfortran -o solmat.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/solmat.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/solpcg.f90 solpcg.o
+gfortran -o solpcg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/solpcg.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/solsor.f90 solsor.o
+gfortran -o solsor.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/solsor.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/lbclnk.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/crs.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/fliocom.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/mathelp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/iom_nf90.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/iom_rstdimg.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbc_oce.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/cpl_oasis3.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/crslbclnk.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_fbm.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcdcy.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbutl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diafwb.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynldf_bilap.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynzdf_exp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/albedo.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/stpctl.done
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/histcom.f90 histcom.o
+gfortran -o histcom.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/histcom.f90
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/restcom.f90 restcom.o
+gfortran -o restcom.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/restcom.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/cla.f90 cla.o
+gfortran -o cla.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/cla.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/closea.f90 closea.o
+gfortran -o closea.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/closea.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crsdom.f90 crsdom.o
+gfortran -o crsdom.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crsdom.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_inter_sup.f90 obs_inter_sup.o
+gfortran -o obs_inter_sup.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_inter_sup.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_profiles_def.f90 obs_profiles_def.o
+gfortran -o obs_profiles_def.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_profiles_def.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_prof_io.f90 obs_prof_io.o
+gfortran -o obs_prof_io.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_prof_io.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_seaice_io.f90 obs_seaice_io.o
+gfortran -o obs_seaice_io.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_seaice_io.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sla_io.f90 obs_sla_io.o
+gfortran -o obs_sla_io.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sla_io.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sst_io.f90 obs_sst_io.o
+gfortran -o obs_sst_io.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_sst_io.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_vel_io.f90 obs_vel_io.o
+gfortran -o obs_vel_io.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_vel_io.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbrst.f90 icbrst.o
+gfortran -o icbrst.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbrst.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbtrj.f90 icbtrj.o
+gfortran -o icbtrj.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbtrj.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icblbc.f90 icblbc.o
+gfortran -o icblbc.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icblbc.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/geo2ocean.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/cla.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/closea.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_grid.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_profiles_def.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_seaice_io.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_sla_io.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_sst_io.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_vel_io.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dommsk.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icblbc.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcana.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynnxt_c1d.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_oper.f90 obs_oper.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_profiles.f90 obs_profiles.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_sla.f90 obs_read_sla.o
+gfortran -o obs_oper.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_oper.f90
+gfortran -o obs_profiles.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_profiles.f90
+gfortran -o obs_read_sla.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_sla.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_rot_vel.f90 obs_rot_vel.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_inter_sup.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_profiles.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_prof_io.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbrst.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbtrj.done
+gfortran -o obs_rot_vel.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_rot_vel.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/restcom.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_write.f90 obs_write.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_rot_vel.done
+gfortran -o obs_write.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_write.f90
+fcm_internal compile:F ioipsl /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/ioipsl.f90 ioipsl.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/histcom.done
+gfortran -o ioipsl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/EXTERNAL/IOIPSL/src/ioipsl.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom_ioipsl.f90 iom_ioipsl.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dianam.f90 dianam.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfdyn.f90 ldfdyn.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldftra.f90 ldftra.o
+gfortran -o iom_ioipsl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom_ioipsl.f90
+gfortran -o dianam.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dianam.f90
+gfortran -o ldfdyn.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldfdyn.f90
+gfortran -o ldftra.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/ldftra.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/mppini.f90 mppini.o
+gfortran -o mppini.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/mppini.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ioipsl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_read_sla.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/mppini.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dianam.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ldfdyn.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/ldftra.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom.f90 iom.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/iom_ioipsl.done
+gfortran -o iom.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/iom.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_prep.f90 obs_prep.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_oper.done
+gfortran -o obs_prep.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_prep.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_write.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/stopar.f90 stopar.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/fldread.f90 fldread.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfbfr.f90 zdfbfr.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfmxl.f90 zdfmxl.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_altbias.f90 obs_read_altbias.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_seaice.f90 obs_read_seaice.o
+gfortran -o stopar.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/stopar.f90
+gfortran -o fldread.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/fldread.f90
+gfortran -o zdfmxl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfmxl.f90
+gfortran -o obs_read_seaice.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_seaice.f90
+gfortran -o zdfbfr.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfbfr.f90
+gfortran -o obs_read_altbias.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_altbias.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_sst.f90 obs_read_sst.o
+gfortran -o obs_read_sst.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_sst.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_readmdt.f90 obs_readmdt.o
+gfortran -o obs_readmdt.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_readmdt.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diaptr.f90 diaptr.o
+gfortran -o diaptr.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diaptr.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdvor.f90 trdvor.o
+gfortran -o trdvor.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdvor.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbdia.f90 icbdia.o
+gfortran -o icbdia.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbdia.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domhgr.f90 domhgr.o
+gfortran -o domhgr.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domhgr.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domwri.f90 domwri.o
+gfortran -o domwri.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domwri.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domzgr.f90 domzgr.o
+gfortran -o domzgr.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domzgr.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domc1d.f90 domc1d.o
+gfortran -o domc1d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domc1d.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crsfld.f90 crsfld.o
+gfortran -o crsfld.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crsfld.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynnept.f90 dynnept.o
+gfortran -o dynnept.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynnept.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_mle.f90 traadv_mle.o
+gfortran -o traadv_mle.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_mle.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_bilap.f90 traldf_bilap.o
+gfortran -o traldf_bilap.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_bilap.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_lap.f90 traldf_lap.o
+gfortran -o traldf_lap.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf_lap.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfevd.f90 zdfevd.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/iom.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/crsdom.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_prep.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_read_altbias.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_read_seaice.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_read_sst.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_readmdt.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diaptr.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbdia.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/domwri.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/domc1d.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traldf_bilap.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traldf_lap.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/stopts.f90 stopts.o
+gfortran -o zdfevd.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfevd.f90
+gfortran -o stopts.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/stopts.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crsdomwri.f90 crsdomwri.o
+gfortran -o crsdomwri.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crsdomwri.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_prof.f90 obs_read_prof.o
+gfortran -o obs_read_prof.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_prof.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_vel.f90 obs_read_vel.o
+gfortran -o obs_read_vel.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/obs_read_vel.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domcfg.f90 domcfg.o
+gfortran -o domcfg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domcfg.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dtauvd.f90 dtauvd.o
+gfortran -o dtauvd.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dtauvd.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbini.f90 icbini.o
+gfortran -o icbini.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbini.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbclv.f90 icbclv.o
+gfortran -o icbclv.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbclv.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbdyn.f90 icbdyn.o
+gfortran -o icbdyn.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbdyn.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbthm.f90 icbthm.o
+gfortran -o icbthm.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbthm.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcapr.f90 sbcapr.o
+gfortran -o sbcapr.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcapr.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcblk_clio.f90 sbcblk_clio.o
+gfortran -o sbcblk_clio.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcblk_clio.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcflx.f90 sbcflx.o
+gfortran -o sbcflx.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcflx.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/stopar.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/fldread.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdfbfr.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdfmxl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/crsdomwri.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_read_vel.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdvor.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/domcfg.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dtauvd.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbclv.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbdyn.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbthm.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/crsfld.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynnept.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv_mle.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdfevd.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/eosbn2.f90 eosbn2.o
+gfortran -o eosbn2.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/eosbn2.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dtatsd.f90 dtatsd.o
+gfortran -o dtatsd.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dtatsd.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crsini.f90 crsini.o
+gfortran -o crsini.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/crsini.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diaobs.f90 diaobs.o
+gfortran -o diaobs.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diaobs.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbstp.f90 icbstp.o
+gfortran -o icbstp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/icbstp.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/stopts.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/obs_read_prof.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbini.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcapr.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcflx.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/icbstp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/domhgr.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/crsini.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dtatsd.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcblk_clio.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdglo.f90 trdglo.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcisf.f90 sbcisf.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdpen.f90 trdpen.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zpshde.f90 zpshde.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcice_if.f90 sbcice_if.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcssm.f90 sbcssm.o
+gfortran -o trdglo.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdglo.f90
+gfortran -o sbcisf.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcisf.f90
+gfortran -o trdpen.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdpen.f90
+gfortran -o sbcice_if.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcice_if.f90
+gfortran -o zpshde.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zpshde.f90
+gfortran -o sbcssm.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcssm.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/eosbn2.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diaobs.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcice_if.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdpen.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdglo.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zpshde.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcssm.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcrnf.f90 sbcrnf.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcisf.done
+gfortran -o sbcrnf.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcrnf.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/divcur.f90 divcur.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcssr.f90 sbcssr.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbccpl.f90 sbccpl.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcrnf.done
+gfortran -o divcur.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/divcur.f90
+gfortran -o sbcssr.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcssr.f90
+gfortran -o sbccpl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbccpl.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/restart.f90 restart.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/divcur.done
+gfortran -o restart.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/restart.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcfwb.f90 sbcfwb.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcssr.done
+gfortran -o sbcfwb.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcfwb.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdmxl_rst.f90 trdmxl_rst.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domvvl.f90 domvvl.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/daymod.f90 daymod.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/restart.done
+gfortran -o daymod.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/daymod.f90
+gfortran -o domvvl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domvvl.f90
+gfortran -o trdmxl_rst.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdmxl_rst.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdmxl.f90 trdmxl.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdmxl_rst.done
+gfortran -o trdmxl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdmxl.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tide_mod.f90 tide_mod.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/daymod.done
+gfortran -o tide_mod.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tide_mod.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tideini.f90 tideini.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/tide_mod.done
+gfortran -o tideini.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tideini.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbctide.f90 sbctide.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/tideini.done
+gfortran -o sbctide.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbctide.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbctide.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcfwb.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdtra.f90 trdtra.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdken.f90 trdken.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdmxl.done
+gfortran -o trdken.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdken.f90
+gfortran -o trdtra.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdtra.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/asminc.f90 asminc.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trazdf_exp.f90 trazdf_exp.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcwave.f90 sbcwave.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sshwzv.f90 sshwzv.o
+gfortran -o trazdf_exp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trazdf_exp.f90
+gfortran -o sshwzv.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sshwzv.f90
+gfortran -o asminc.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/asminc.f90
+gfortran -o sbcwave.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcwave.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trazdf_imp.f90 trazdf_imp.o
+gfortran -o trazdf_imp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trazdf_imp.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/domvvl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdken.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trazdf_exp.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trddyn.f90 trddyn.o
+gfortran -o trddyn.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trddyn.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfgls.f90 zdfgls.o
+gfortran -o zdfgls.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfgls.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdini.f90 trdini.o
+gfortran -o trdini.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trdini.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sshwzv.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trazdf_imp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdini.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynadv_cen2.f90 dynadv_cen2.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynadv_ubs.f90 dynadv_ubs.o
+gfortran -o dynadv_cen2.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynadv_cen2.f90
+gfortran -o dynadv_ubs.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynadv_ubs.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynkeg.f90 dynkeg.o
+gfortran -o dynkeg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynkeg.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynzad.f90 dynzad.o
+gfortran -o dynzad.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynzad.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynhpg.f90 dynhpg.o
+gfortran -o dynhpg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynhpg.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trabbc.f90 trabbc.o
+gfortran -o trabbc.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trabbc.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traqsr.f90 traqsr.o
+gfortran -o traqsr.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traqsr.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynbfr.f90 dynbfr.o
+gfortran -o dynbfr.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynbfr.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf.f90 dynldf.o
+gfortran -o dynldf.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynldf.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcblk_core.f90 sbcblk_core.o
+gfortran -o sbcblk_core.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcblk_core.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_cen2.f90 traadv_cen2.o
+gfortran -o traadv_cen2.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_cen2.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_muscl.f90 traadv_muscl.o
+gfortran -o traadv_muscl.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_muscl.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_muscl2.f90 traadv_muscl2.o
+gfortran -o traadv_muscl2.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_muscl2.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_qck.f90 traadv_qck.o
+gfortran -o traadv_qck.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_qck.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_tvd.f90 traadv_tvd.o
+gfortran -o traadv_tvd.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_tvd.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_ubs.f90 traadv_ubs.o
+gfortran -o traadv_ubs.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv_ubs.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf.f90 traldf.o
+gfortran -o traldf.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traldf.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tranpc.f90 tranpc.o
+gfortran -o tranpc.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tranpc.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trdtra.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/asminc.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trddyn.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/domzgr.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trabbc.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traqsr.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynbfr.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynldf.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbccpl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcwave.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv_cen2.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv_muscl.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv_muscl2.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traldf.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tradmp.f90 tradmp.o
+gfortran -o tradmp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tradmp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynadv.f90 dynadv.o
+gfortran -o dynadv.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynadv.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domain.f90 domain.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diahsb.f90 diahsb.o
+gfortran -o domain.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/domain.f90
+gfortran -o diahsb.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diahsb.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/tradmp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynadv_cen2.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynadv_ubs.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynkeg.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynzad.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv_qck.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/tranpc.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/asmbkg.f90 asmbkg.o
+gfortran -o asmbkg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/asmbkg.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diawri.f90 diawri.o
+gfortran -o diawri.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/diawri.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dyndmp.f90 dyndmp.o
+gfortran -o dyndmp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dyndmp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynnxt.f90 dynnxt.o
+gfortran -o dynnxt.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynnxt.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynvor.f90 dynvor.o
+gfortran -o dynvor.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynvor.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynzdf_imp.f90 dynzdf_imp.o
+gfortran -o dynzdf_imp.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynzdf_imp.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tranxt.f90 tranxt.o
+gfortran -o tranxt.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/tranxt.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/asmbkg.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynadv.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dyndmp.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynhpg.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diahsb.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynnxt.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv_ubs.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg.f90 dynspg.o
+gfortran -o dynspg.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynspg.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/diawri.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/domain.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/tranxt.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynzdf_imp.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/istate.f90 istate.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynspg.done
+gfortran -o istate.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/istate.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv.f90 traadv.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv_tvd.done
+gfortran -o traadv.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/traadv.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynzdf.f90 dynzdf.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trazdf.f90 trazdf.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfini.f90 zdfini.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdfgls.done
+gfortran -o trazdf.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trazdf.f90
+gfortran -o dynzdf.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/dynzdf.f90
+gfortran -o zdfini.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/zdfini.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynzdf.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trazdf.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/zdfini.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/traadv.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcblk_mfs.f90 sbcblk_mfs.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcblk_core.done
+gfortran -o sbcblk_mfs.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcblk_mfs.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/dynvor.done
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/istate.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcmod.f90 sbcmod.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcblk_mfs.done
+gfortran -o sbcmod.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/sbcmod.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trasbc.f90 trasbc.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/sbcmod.done
+gfortran -o trasbc.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/trasbc.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/step_oce.f90 step_oce.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/trasbc.done
+gfortran -o step_oce.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/step_oce.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/step.f90 step.o
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/step_c1d.f90 step_c1d.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/step_oce.done
+gfortran -o step.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/step.f90
+gfortran -o step_c1d.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/step_c1d.f90
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/step_c1d.done
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/nemogcm.f90 nemogcm.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/step.done
+gfortran -o nemogcm.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/ppsrc/nemo/nemogcm.f90
+fcm_internal compile:F nemo /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/WORK/nemo.f90 nemo.o
+touch /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/done/nemogcm.done
+gfortran -o nemo.o -I/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/inc -fdefault-real-8 -O3 -funroll-all-loops -fcray-pointer -I/usr/include -I/usr/include -c /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/WORK/nemo.f90
+fcm_internal load:F nemo nemo.o nemo.exe
+ar: creating /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/tmp/lib__fcm__nemo.a
+gfortran -o nemo.exe /home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/obj/nemo.o -L/home/kboodhraj/NEMOGCM/CONFIG/Reffray_ke_lev21_results/BLD/lib -l__fcm__nemo -lstdc++ -L/usr/lib -L/usr/lib -lnetcdff -lnetcdf
+->Make: 44 seconds
+->TOTAL: 53 seconds
+Build command finished on Tue Aug 16 15:10:57 2016.
+/home/kboodhraj/NEMOGCM/CONFIG

@@ -1,0 +1,1 @@
+/home/kboodhraj/NEMOGCM/CONFIG/Reffray_kkl_lev101_modified_hyperbolic_results/EXP00/input/init_PAPASTATION_m06d15.nc

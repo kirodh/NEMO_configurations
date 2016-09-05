@@ -1,0 +1,1 @@
+/home/kboodhraj/NEMOGCM/CONFIG/REFRAY/EXP00/input/chlorophyll_PAPASTATION.nc

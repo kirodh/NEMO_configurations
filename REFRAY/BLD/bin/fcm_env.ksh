@@ -1,0 +1,1 @@
+/home/kboodhraj/NEMOGCM/CONFIG/REFRAY/BLD/fcm_env.sh

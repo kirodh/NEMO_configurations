@@ -1,0 +1,2 @@
+this is the compiling command
+./makenemo -m 1dpapa -r reference_case -n name_of_config -j8 >&name_of_log_file

@@ -1,0 +1,1 @@
+/home/kboodhraj/NEMOGCM/CONFIG/C1D_PAPA_no_turbulence_results/EXP00/input/chlorophyll_PAPASTATION.nc
